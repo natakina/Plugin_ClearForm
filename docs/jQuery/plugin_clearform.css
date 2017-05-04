@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+form{
+	padding-left: 15px;
+	max-width: 175px;
+}
+.item{
+	position: relative;
+    width: 100%;
+}
+
+p{
+	margin: 10px 0px;
+}
+input{
+    width: 100%;
+}
+textarea{
+	max-width: 100%;
+}
+
+.clear{
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    top: 29px;
+    font-size: 90%;
+    color: blue;
+    display: none; 
+}
